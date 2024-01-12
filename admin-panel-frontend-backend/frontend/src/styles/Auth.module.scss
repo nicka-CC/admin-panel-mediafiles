@@ -1,0 +1,136 @@
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F9F9F9;
+}
+
+.block {
+    display: flex;
+    width: 300px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 4px;
+    background: var(--shades-white, #FFF);
+    box-shadow: 0px 10px 15px -3px rgba(0, 58, 102, 0.2);
+}
+.header {
+    color: var(--neutral-800, #191D23);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--neutral-800, #191D23);
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    input {
+        display: flex;
+        height: 40px;
+        padding: 8px 12px;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 4px;
+        border: 1.5px solid var(--neutral-500, #64748B);
+    }
+    
+}
+.password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--neutral-800, #191D23);
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    input {
+        display: flex;
+        height: 40px;
+        padding: 8px 12px;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 4px;
+        border: 1.5px solid var(--neutral-500, #64748B);
+        width: 100%;
+    }
+    .passwordLabel {
+        display: flex;
+        align-items: center;
+        gap: 68px;
+        align-self: stretch;
+        p {
+            color: #003D6C;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+.cta {
+    display: flex;
+    height: 44px;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #003D6C;
+    &:active {
+        transform: translateY(2px);
+        background: #003a66;
+        box-shadow: 0px 10px 15px -3px rgba(0, 58, 102, 0.2);
+    }
+    p{
+        color: var(--shades-white, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+.inputContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .passwordInput {
+    padding-right: 40px; /* Пространство справа для кнопки */
+  }
+  
+  .eyeButton {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }

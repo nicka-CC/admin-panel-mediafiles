@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E3E3E3;
+    box-shadow: 0px 1px 40px 0px rgba(166, 165, 165, 0.25);
+    z-index: 10;
+}
+.user {
+    display: flex;
+    align-items: center;
+    color: #003D6C;
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: #EAF5FF;
+}
+.dropmenu {
+    position: absolute;
+    right: 0.1em;
+    color: #003D6C;
+    transform: translateY(55px);
+    background: #ffffff;
+    display: flex;
+    padding: 10px 15px 10px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 0px 0px 5px 5px;
+    border-top: 1px solid #EEE;
+    background: #FFF;
+    flex: 1 0 0;
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        align-self: stretch;
+        cursor: pointer;
+        p {
+            flex: 1 0 0;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

@@ -1,0 +1,193 @@
+.mainN{
+    background: #F2F4F8;
+    padding: 20px;
+}
+.media_container{
+    background: white;
+    padding: 10px;
+    width: 100%;
+    min-height: 935px;
+}
+.media_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid #F2F4F8;
+}
+
+.item1{
+    color: #003D6C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+}
+
+.search_container{
+    width: 100%;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch; 
+}
+.search_bar_container{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background: #F2F4F8;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+}
+.search_btn{
+    color: #003D6C;
+    text-align: center;
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.search1{
+    color: #003D6C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-left: 10px;
+    width: 100%;
+    height: 17px;
+    bottom: 3px;
+}
+.searches{
+    width: 100%;
+    display: flex;
+    // flex-direction: row;
+    padding: 0px 5px;
+}
+.search2{
+    width: 100%;
+    height: 17px;
+    width: 17px;
+
+}
+
+.del_add{
+    width: 100%; 
+    justify-content: right;
+    display: flex;
+}
+
+
+.delete_container{
+    display: flex;
+}
+.delete_int{
+    color: rgba(0, 61, 108, 0.35);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 95px;
+    height: 34px;
+    text-align: left;
+    padding-top: 9px;
+}
+.delete_icon{
+    width: 34px;
+    height: 34px;
+}
+
+
+.add{
+    display: flex;
+    border-radius: 3px;
+    background: #EAF5FF;
+    width:114px;
+    height: 34px;
+}
+.add_img{
+    width: 24px;
+    height: 24px;
+    margin:5px;
+}
+.add_text{
+    color: #003D6C;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+
+
+.file_img{
+    width: 104px;
+    height: 104px;
+}
+.file {
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  
+    input[type='checkbox']:checked + button Image {
+      border: 2px solid blue; /* Добавляем синий бордер при выборе чекбокса к изображению внутри кнопки */
+    }
+  
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+    }
+  
+  }
+.files{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.file_choose{
+    background: rgb(0, 0, 0);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-radius: 50%;
+}
+.checkbox{
+    position: absolute;
+    margin-left: 20px;
+    border: 5px solid black;
+    width:200px;
+    /* border-radius: 100%/2;  */
+}
+
+  .delete_text {
+    color: rgba(0, 61, 108, 0.35);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 95px;
+    height: 34px;
+    text-align: left;
+    padding-top: 9px;
+  }
+  
+  .delete_text_red {
+    color: rgba($color: #ff0000, $alpha: 1.0);
+  }
+  .delete_text_norm {
+    color: rgba(0, 61, 108, 0.35);
+  }

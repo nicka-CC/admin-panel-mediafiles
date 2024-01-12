@@ -1,0 +1,224 @@
+
+.filesOpen{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.modWindow{
+    width: 1030px;
+    height:563px;
+    background-color: #FFF;
+    padding: 10px;
+    /* position: relative; */
+    border-radius: 3px;
+  
+}
+.mod_container{
+    padding: 0px 20px;
+}
+.mod_header{
+    display: flex;
+    border-bottom: 2px solid #F2F4F8; 
+}
+.header_text{
+    color: #003D6C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.close_btn{
+    margin-left: auto;
+}
+.mod_main{
+    display: flex;
+    border-bottom: 2px solid #F2F4F8;
+    height: 453px;
+}
+.img_mod{
+    width: 400px;
+    height: 400px;
+}
+.img_good_about{
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.mod_info{
+    margin-left: 30px;
+    width: 460px;
+    height: 229px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.fill_name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.fill_name_g{
+    width: 460px;
+    height: 30px;
+    color: #003D6C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.fill_name_file{
+    margin: 0 14px;
+    display: flex;
+    width: 430px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info_file_atribyt{
+    display: flex;
+    width: 450px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 3px;
+    background: #F2F4F8;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.file_compression{
+    display: flex;
+    width: 100%;
+}
+.file_compression_item{
+    color: #003D6C; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 4 0px;
+}
+.compression_select{
+    margin-left: auto;
+    padding: 0px;
+    border-radius: 3px;
+    background: #EAF5FF;
+    display: flex;
+    width: 145px;
+    height: 30px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; 
+}
+.select{
+    appearance: none;
+    overflow: hidden;
+    width: 100%;
+    padding-right: 0px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    background: url('./../../../../public/media/arrow_drop_down.svg') no-repeat right;
+
+}
+.img_sel{
+    width:20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 90px;
+}
+.file_size{
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+.file_size_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch; 
+    color: #003D6C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.file__size{
+    margin-left: auto;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.marg_tp{
+    margin-top: 10px;
+}
+.mode_footer{
+    margin-top: 10px;
+    display: flex;
+}
+.mf_download{
+    color: #003D6C;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    height: 40px;
+}
+.mf_del_down{
+    height: 40px;
+    display: flex;
+    
+}
+.mff_dd{
+    display: flex;
+    margin-left: auto;
+    width:187px;
+}
+.mfi_delete{
+    color: #003D6C;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 20px; 
+}
+.mfi_download{
+    display: flex;
+    padding: 7px 15px;
+    align-items: center;
+    gap: 10px; 
+    border-radius: 3px;
+    background: #003D6C; 
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}

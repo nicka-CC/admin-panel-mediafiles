@@ -1,0 +1,32 @@
+/* Стили для контейнера */
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Стили для sidebar */
+  .sidebar {
+    width: 80px; /* Ширина sidebar */
+    background-color: #f0f0f0;
+  }
+  
+  /* Стили для content */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Стили для header */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Стили для main */
+  .contentMain {
+    flex: 1;
+    padding: 20px;
+  }
+  
